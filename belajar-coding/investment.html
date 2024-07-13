@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>investment</title>
+    <style>
+        body {
+            background-color: #242424;
+        } 
+        h4 {
+            color: #79FFFE;
+        }
+
+
+        .sidebar1 {
+            display: flex;
+        }
+        .sidebar {
+            height: 100vh;
+            width: 250px;
+            position: fixed;
+            padding-top: 20px;
+         
+        }
+        a {
+            text-decoration: none;
+        }
+        .people {
+            display: flex;
+            margin-left: 30px;
+            color: #fff;
+        }
+        .container {
+            display: flex;
+        }
+        .left {
+            margin-left: 270px;
+            color: #fff;
+        }
+        .navbar {
+            margin-left: 10px;
+        }
+        .sidebar a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #fff;
+            display: block;
+        }
+
+        .search-bar {
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .Search {
+            width: 60%;
+            padding: 10px;
+            border: none;
+            border-radius: 25px;
+            margin-top: 25px;
+        }
+        .kategori {
+        gap: 10rem;
+        display: flex; 
+        }
+        .Bareksa {
+            display: flex;
+            gap: 3rem;
+        }
+        p {
+            background-color: #333333;
+            color: #fff;
+            padding: 10px;
+            border-radius: 20px;
+        }
+        th {
+            padding-right: 800px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="sidebar">
+        <div class="people">
+           <div style="background-color: #fff; border-radius: 70px; width: 60px; height: 60px;"><img src="people.svg" alt=""></div>
+            <h2>Hello, world!</h2>
+        </div>
+        <div class="navbar">
+            <div>
+            <a href="home.html">Dashboard</a>
+            <a href="investment.html">Investment</a>
+            <a href="u-dana.html">U-Dana</a>
+            </div>
+            <hr style="margin-top: 300px; width: 200px;">
+            <div>
+            <a href="#">Settings</a>
+            <a href="#">Support</a>
+            </div>
+        </div>
+    </div>
+    <div class="left">
+        <h1 style="color: #ffff;">Explore Investment Opportunities</h1>
+        <div class="search-bar">
+            <input class="Search" placeholder="Search Investments" style="background-color: #333333;">
+            <button style="width: 80px; height: 35px; border-radius: 25px; background-color: #79FFFE;">Search</button>
+            <hr style="margin-top: 35px;">
+        </div>
+        <h4>Top Picks</h4>
+        <div class="Bareksa">
+            <p>Bareksa</p>
+            <p>Sinarmas Sekuritas</p>
+            <p>Mirae Aset Securitas</p>
+        </div>
+        <hr style="margin-top: 20px;">
+        <h4>Kategori</h4>
+        <div class="kategori">
+            <label><input type="checkbox">Stocks</label>
+            <label><input type="checkbox">Bonds</label>
+            <label><input type="checkbox">Mutual Friend</label>
+            <label><input type="checkbox">Sharia</label>
+        </div>
+        <div>
+            <h4 style="text-indent: 30px;">Watchlist</h4>
+            <div style="margin-left: 80px; text-align: left;">
+               <table>
+                <tr>
+                    <th>ASII</th>
+                    <td>Rp5.275</td>
+                </tr>
+                <tr>
+                    <td>Astra International tbk</td>
+                    <td><img src="up.svg" alt=""></td>
+                </tr>
+               </table> <hr>
+               <table>
+                <tr>
+                    <th>BBCA</th>
+                    <td>Rp9.500</td>
+                </tr>
+                <tr>
+                    <td>Bank Central Asia tba</td>
+                    <td><img src="up.svg" alt=""></td>
+                </tr>
+               </table> <hr>
+               <table>
+                <tr>
+                    <th>TLKM</th>
+                    <td>Rp3.400</td>
+                </tr>
+                <tr>
+                    <td>PT Telkom Indonesia Persero</td>
+                    <td><img src="down.svg" alt=""></td>
+                </tr>
+               </table> <hr>
+            </div>
+            
+            
+
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
